@@ -32,30 +32,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-  const [screenWidth, setScreenWidth] = useState(null);
-
-  useEffect(() => {
-    const updateScreenWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    // Initial call to set the initial screen width
-    updateScreenWidth();
-
-    // Event listener to update screen width on resize
-    const handleResize = () => {
-      updateScreenWidth();
-    };
-
-    // Add event listener only on the client side
-    if (typeof window !== 'undefined') {
-      window.addEventListener('resize', handleResize);
-    }
-
-    // Cleanup event listener
-    return () => {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('resize', handleResize);
-      }
-    };
-  }, []);
+ 
