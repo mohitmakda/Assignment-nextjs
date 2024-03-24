@@ -16,11 +16,7 @@ const MarketStoryData = [
     title: 'Feature 2',
     description: 'Description of market data.',
   },
-  {
-    imageSrc: "/assets/sampleImg.avif",
-    title: 'Feature 2',
-    description: 'Description of market data.',
-  },
+
   
 ];
 

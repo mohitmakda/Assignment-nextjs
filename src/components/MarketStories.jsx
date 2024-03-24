@@ -6,7 +6,7 @@ import MarketStoryData from './MarketStory';
 const MarketStories = () => {
  
   return (
-    <div className="hidden md:block container mx-auto px-4 py-8">
+    <div className="hidden md:block container mx-auto px-4 py-8 max-h-screen">
 
     <h1 className='hidden md:block text-red-500 bg-gray-200 p-4 w-64 font-bold '>Market Stories</h1>
       
