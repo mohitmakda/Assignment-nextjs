@@ -3,15 +3,25 @@
 const MarketStoryData = [
   {
     imageSrc: '/assets/sampleImg.avif',
-    title: 'Feature 1',
-    description: 'Description of feature 1 goes here.',
+    title: 'Market data',
+    description: 'Description of market data.',
   },
   {
     imageSrc: "/assets/sampleImg.avif",
     title: 'Feature 2',
-    description: 'Description of feature 2 goes here.',
+    description: 'Description of market data.',
   },
-  // Add more feature objects as needed
+  {
+    imageSrc: "/assets/sampleImg.avif",
+    title: 'Feature 2',
+    description: 'Description of market data.',
+  },
+  {
+    imageSrc: "/assets/sampleImg.avif",
+    title: 'Feature 2',
+    description: 'Description of market data.',
+  },
+  
 ];
 
 export default MarketStoryData;

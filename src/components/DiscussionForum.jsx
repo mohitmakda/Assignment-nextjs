@@ -2,7 +2,7 @@
 import React from 'react';
 import Tweet from './Tweet';
 import ExamplePage from './ExamplePage'; 
-import Sidebar from './Sidebar';
+
 
 const DiscussionForum = () => {
 

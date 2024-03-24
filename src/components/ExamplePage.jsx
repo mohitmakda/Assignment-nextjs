@@ -40,7 +40,7 @@ const ExamplePage = {
         views: 100,
         comments: 5,
       },
-      // Add more users as needed
+      
     ]
   };
   
